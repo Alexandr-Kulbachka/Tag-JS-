@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Пятнашки</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Пятнашки</h1>
+    </div>
+    <div class="container">
+        <h1 id="wonMessage"></h1>
+        <div class="game-field">
+            <div class="menu">
+                <label for="fieldSize">Выберите размер поля:</label>
+                <select id="fieldSize">
+                    <option value="3">3x3</option>
+                    <option value="4">4x4</option>
+                    <option value="5">5x5</option>
+                    <option value="6">6x6</option>
+                </select>
+                <button id="generateField">Начать игру</button>
+            </div>
+            <table id="myTable">
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
